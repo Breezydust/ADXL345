@@ -1,3 +1,3 @@
 # Mechanical
 
-This folder contains laser cutting a 3D printing files
+This folder contains laser cutting and 3D printing files
