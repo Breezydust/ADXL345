@@ -1,6 +1,6 @@
 <html>
   <head></head>
-  <body
+  <body>
     <h3 id="october-1-2019-week-5">Week 5 - October 1, 2019</h3>
     <p>All required items have been ordered and shipped. They were purchased in multiple orders - both order summaries are uploaded.</p>
     <p><img src="/SmartWatch/Images/Adafruit_ADXL345_Order_Redacted.png" alt="ADXL345_Receipt"/></p>
