@@ -23,6 +23,6 @@
     <hr>
 
     <h3 id="september-03-2019-week-1">Week 1 - September 3, 2019</h3>
-    <p>Welcome! I've just created this webpage. It will host links to various documentation related to my SmartWatch project.</p>
+    <p>Welcome! I've just created this webpage. It will serve as a blog with weekly updates on project status. All documentation can be found <a href="https://github.com/Breezydust/SmartWatch/tree/master/Documentation">here.</a></p>
   </body>
 </html>
