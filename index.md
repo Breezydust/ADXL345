@@ -1,6 +1,9 @@
 <html>
   <head></head>
   <body>
+    <h3 id="october-8-2019-week-6">Week 6 - October 8, 2019</h3>
+    <p>Soldering safety training completed in-class. I am currently in the process of finalizing my PCB design. Finalized designs will be uploaded once confirmed - printing and soldering will take place soon after.</p>
+    
     <h3 id="october-1-2019-week-5">Week 5 - October 1, 2019</h3>
     <p>All required items have been ordered and shipped. They were purchased in multiple orders - both order summaries are uploaded.</p>
     <p><img src="/SmartWatch/Images/Adafruit_ADXL345_Order_Redacted.png" alt="ADXL345_Receipt"/></p>
