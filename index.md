@@ -1,13 +1,28 @@
 <html>
-  <head></head>
-  <body>
-    <h3 id="october-8-2019-week-6">Week 6 - October 8, 2019</h3>
+ <head></head>
+ <body>
+   <h3 id="october-15-2019-week-7">Week 7 - October 15, 2019</h3>
+   <p>PCB, breadboard and schematic designs have been completed. PCB printing will be done by a third-party <a href="https://aisler.net">studio.</a> Images of all three designs have been uploaded, and the .fzz file containing all the designs can be found <a href="https://github.com/Breezydust/SmartWatch/blob/master/Electronics/ADXL345Breadboard.fzz">here.</a></p>
+    
+   <p>PCB:</p>
+   <p><img src="/SmartWatch/Images/PCBDesignImage.png" alt="PCB_design"/></p>
+     
+   <p>Breadboard:</p>
+   <p><img src="/SmartWatch/Images/BreadboardDigitalImage.png" alt="Breadboard_digital_design"/></p>
+   
+   <p>Schematic:</p>
+   <p><img src="/SmartWatch/Images/SchematicImage.png" alt="Schematic_design/></p>
+   <hr>
+    
+   <h3 id="october-8-2019-week-6">Week 6 - October 8, 2019</h3>
    <p>Soldering safety training completed in-class. I am currently in the process of finalizing my PCB design. Finalized designs will be uploaded once confirmed - printing and soldering will take place soon after.</p>
    <hr>
     
    <h3 id="october-1-2019-week-5">Week 5 - October 1, 2019</h3>
    <p>All required items have been ordered and shipped. They were purchased in multiple orders - both order summaries are uploaded.</p>
+   <p>Sensor order:</p>
    <p><img src="/SmartWatch/Images/Adafruit_ADXL345_Order_Redacted.png" alt="ADXL345_Receipt"/></p>
+   <p>Display order:</p>
    <p><img src="/SmartWatch/Images/Kuman_OLEDDisplay_Order_Redacted.png" alt="Display_Receipt"/></p>
    <hr>    
 
