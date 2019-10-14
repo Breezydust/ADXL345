@@ -11,7 +11,7 @@
    <p><img src="/SmartWatch/Images/BreadboardDigitalImage.png" alt="Breadboard_digital_design"/></p>
    
    <p>Schematic:</p>
-   <img src="/SmartWatch/Images/SchematicImage.png" alt="Schematic_design"/></p>
+   <p><img src="/SmartWatch/Images/SchematicImage.png" alt="Schematic_design"/></p>
    <hr>
    
    <h3 id="october-8-2019-week-6">Week 6 - October 8, 2019</h3>
