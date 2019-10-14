@@ -11,9 +11,9 @@
    <p><img src="/SmartWatch/Images/BreadboardDigitalImage.png" alt="Breadboard_digital_design"/></p>
    
    <p>Schematic:</p>
-   <p><img src="/SmartWatch/Images/SchematicImage.png" alt="Schematic_design/></p>
+   <img src="/SmartWatch/Images/SchematicImage.png" alt="Schematic_design"/></p>
    <hr>
-    
+   
    <h3 id="october-8-2019-week-6">Week 6 - October 8, 2019</h3>
    <p>Soldering safety training completed in-class. I am currently in the process of finalizing my PCB design. Finalized designs will be uploaded once confirmed - printing and soldering will take place soon after.</p>
    <hr>
