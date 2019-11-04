@@ -1,6 +1,9 @@
 <html>
  <head></head>
  <body>
+  <h3 id="october-29-2019-week-9">Week 9 - October 29, 2019</h3>
+  <h3 id="october-22-2019-week-8">Week 8 - October 22, 2019</h3>
+  <p>No class this week as the college is closed. Raspberry Pi was configured to allow for connections over SSH and VNC, and I received my third-party PCB order.</p>
    <h3 id="october-15-2019-week-7">Week 7 - October 15, 2019</h3>
    <p>PCB, breadboard and schematic designs have been completed. PCB printing will be done by a third-party <a href="https://aisler.net">studio.</a> Images of all three designs have been uploaded, and the .fzz file containing all the designs can be found <a href="https://github.com/Breezydust/SmartWatch/blob/master/Electronics/ADXL345Breadboard.fzz">here.</a></p>
     
