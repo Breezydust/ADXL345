@@ -1,6 +1,15 @@
 <html>
  <head></head>
  <body>
+  <h3 id="november-5-2019-week-9">Week 9 - November 5, 2019</h3>
+  <p>PCB has been soldered and is functional when plugged directly onto Raspberry Pi GPIO pins. Functionality will be demonstrated next class. Focus of project will be shifting to design and assembly of an appropriate enclosure.</p>
+   
+  <p>PCB Top View:</p>
+  <p><img src="/SmartWatch/Images/ADXL345_PCB_Top.jpeg" alt="PCB_top"/></p>
+  
+  <p>PCB Bottom View:</p>
+  <p><img src="/SmartWatch/Images/ADXL345_PCB_Bottom.jpeg" alt="PCB_bottom"/></p>
+  
   <h3 id="october-29-2019-week-8">Week 8 - October 29, 2019</h3>
   <p>Breadboard was setup and <a href="https://github.com/Breezydust/SmartWatch/blob/master/Firmware/ADXL345.py">code</a> was written to read data off the sensor and on to the Pi. I have not run into any additional expenses thus far, and project is going smoothly. PCB soldering will be done next week.</p>
   
