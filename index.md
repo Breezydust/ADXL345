@@ -1,7 +1,7 @@
 <html>
  <head></head>
  <body>
-  <h3 id="october-29-2019-week-9">Week 9 - October 29, 2019</h3>
+  <h3 id="october-29-2019-week-8">Week 8 - October 29, 2019</h3>
   <p>Breadboard was setup and <a href="https://github.com/Breezydust/SmartWatch/blob/master/Firmware/ADXL345.py">code</a> was written to read data off the sensor and on to the Pi. I have not run into any additional expenses thus far, and project is going smoothly. PCB soldering will be done next week.</p>
   
   <p>Physical breadboard:</p>
@@ -10,7 +10,7 @@
   <p>Reading sensor data:</p>
   <p><img src="/SmartWatch/Images/ADXL345_test_screenshot.png" alt="sensor_readings"/></p>
   
-  <h3 id="october-22-2019-week-8">Week 8 - October 22, 2019</h3>
+  <h3 id="october-22-2019-week-reading">Reading Week - October 22, 2019</h3>
   <p>No class this week as the college is closed. Raspberry Pi was configured to allow for connections over SSH and VNC, and I received my third-party PCB order.</p>
   
    <h3 id="october-15-2019-week-7">Week 7 - October 15, 2019</h3>
