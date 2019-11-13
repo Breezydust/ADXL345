@@ -1,6 +1,13 @@
 <html>
  <head></head>
  <body>
+  <h3 id="november-12-2019-week-10">Week 10 - November 12, 2019</h3>
+  <p>PCB soldering is complete, is functional when plugging into Raspberry Pi GPIO pins, and has been demonstrated in-class. Raspberry Pi software has been configured as well - I am able to connect to a headless Pi using VNC/xRDP on lab computers. 
+   
+   
+  There have been no notable changes to the budget or the project outline up until this point. As the Pi-related parts of the project begin to wind-down (software is functional, PCB is soldered, and I am able to read data off the sensor), I am shifting focus to designing and assembling an enclosure. The enclosure is due next week, followed by the final presentation the week after.</p>
+  <hr>
+  
   <h3 id="november-5-2019-week-9">Week 9 - November 5, 2019</h3>
   <p>PCB has been soldered and is functional when plugged directly onto Raspberry Pi GPIO pins. Functionality will be demonstrated next class. Focus of project will be shifting to design and assembly of an appropriate enclosure.</p>
    
@@ -9,6 +16,7 @@
   
   <p>PCB Bottom View:</p>
   <p><img src="/SmartWatch/Images/ADXL345_PCB_Bottom.jpeg" alt="PCB_bottom"/></p>
+  <hr>
   
   <h3 id="october-29-2019-week-8">Week 8 - October 29, 2019</h3>
   <p>Breadboard was setup and <a href="https://github.com/Breezydust/SmartWatch/blob/master/Firmware/ADXL345.py">code</a> was written to read data off the sensor and on to the Pi. I have not run into any additional expenses thus far, and project is going smoothly. PCB soldering will be done next week.</p>
@@ -21,6 +29,7 @@
   
   <h3 id="october-22-2019-week-reading">Reading Week - October 22, 2019</h3>
   <p>No class this week as the college is closed. Raspberry Pi was configured to allow for connections over SSH and VNC, and I received my third-party PCB order.</p>
+  <hr>
   
    <h3 id="october-15-2019-week-7">Week 7 - October 15, 2019</h3>
    <p>PCB, breadboard and schematic designs have been completed. PCB printing will be done by a third-party <a href="https://aisler.net">studio.</a> Images of all three designs have been uploaded, and the .fzz file containing all the designs can be found <a href="https://github.com/Breezydust/SmartWatch/blob/master/Electronics/ADXL345Breadboard.fzz">here.</a></p>
