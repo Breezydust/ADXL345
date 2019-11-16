@@ -26,7 +26,8 @@
   
   <p>Reading sensor data:</p>
   <p><img src="/SmartWatch/Images/ADXL345_test_screenshot.png" alt="sensor_readings"/></p>
-  
+  <hr>
+
   <h3 id="october-22-2019-week-reading">Reading Week - October 22, 2019</h3>
   <p>No class this week as the college is closed. Raspberry Pi was configured to allow for connections over SSH and VNC, and I received my third-party PCB order.</p>
   <hr>
