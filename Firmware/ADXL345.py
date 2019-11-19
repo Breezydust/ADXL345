@@ -22,7 +22,7 @@ else:
 
 while True:
 	print("X: %f Y: %f Z: %f"%sensor.acceleration) #print X, Y and Z coordinates and any acceleration
-	if bool(%sensor.events["freefall"]): print("Sensor dropped!")	#advanced funtionality - print sensor dropped if freefall is detected
-	if bool(%sensor.events["tap"]): print("Sensor tapped!")		#advanced functionality - print sensor tapped if tap is detected
-	if bool(%sensor.events["motion"]): print("Sensor moved!")	#advanced functionality - print sensor moved if movement is detected
+	if bool(sensor.events["freefall"]): print("Sensor dropped!")	#advanced funtionality - print sensor dropped if freefall is detected
+	if bool(sensor.events["tap"]): print("Sensor tapped!")		#advanced functionality - print sensor tapped if tap is detected
+	if bool(sensor.events["motion"]): print("Sensor moved!")	#advanced functionality - print sensor moved if movement is detected
 	time.sleep(1.0)
