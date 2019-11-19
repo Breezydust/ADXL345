@@ -1,6 +1,20 @@
 <html>
  <head></head>
  <body>
+  <h3 id="november-19-2019-week-11">Week 11 - November 19, 2019</h3>
+  <p>Enclosure has been designed, built and assembled. I opted to go with an acrylic enclosure, as 3D printing proved to be too costly and time-consuming. CorelDraw 2019 was used to create the design files, and the enclosure was laser-cut in the Humber Prototype Lab. The design files can be found under the <a href="https://github.com/Breezydust/SmartWatch/blob/master/Mechanical">Mechanical</a> folder of the project repo.</p>
+  
+  <p>Enclosure Top View:</p>
+  <p><img src="/SmartWatch/Images/ADXL345_Enclosure_Top.jpg" alt="enclosure_top"/></p>
+  
+  <p>Enclosure Side View:</p>
+  <p><img src="/SmartWatch/Images/ADXL345_Enclosure_Side.jpg" alt="enclosure_side"/></p>
+  
+  <p>Enclosure Back View:</p>
+  <p><img src="/SmartWatch/Images/ADXL345_Enclosure_Back.jpg" alt="enclosure_back"/></p>
+  <hr>
+  
+  
   <h3 id="november-12-2019-week-10">Week 10 - November 12, 2019</h3>
   <p>PCB soldering is complete, is functional when plugging into Raspberry Pi GPIO pins, and has been demonstrated in-class. Raspberry Pi software has been configured as well - I am able to connect to a headless Pi using VNC/xRDP on lab computers. 
    
