@@ -7,7 +7,7 @@ Implementing the accelerometer portion of a SmartWatch IOT project using the Ada
 3. [BOM/Budget](#Bill-of-Materials-and-Budget)
 4. [Time Commitment](#Time-Commitment)
 5. [Mechanical Assembly](#Mechanical-Assembly)
-6. [PCB/Soldering](#PCB/Soldering)
+6. [PCB/Soldering](#PCB\/Soldering)
 7. [Power Up](#Power-Up)
 8. [Unit Testing](#Unit-Testing)
 9. [Production](#Production-Testing)
