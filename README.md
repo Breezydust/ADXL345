@@ -7,13 +7,13 @@ Implementing the accelerometer portion of a SmartWatch IOT project using the Ada
 3. [BOM/Budget](#Bill-of-Materials-and-Budget)
 4. [Time Commitment](#Time-Commitment)
 5. [Mechanical Assembly](#Mechanical-Assembly)
-6. [PCB/Soldering](#PCB\/Soldering)
+6. [PCB Design and Soldering](#PCB-Design-and-Soldering)
 7. [Power Up](#Power-Up)
 8. [Unit Testing](#Unit-Testing)
 9. [Production](#Production-Testing)
 
 ## Introduction
-This project is to implement the Adafruit ADXL345 accelerometer into a development platform. The ADXL345 is soldered on to a custom-designed PCB to allow for plug-and-pluy functionality with our Raspberry Pi 3 development platform. Firmware was written to interface with the connected sensor, and an enclosure was designed to hold the Pi and sensor assembly. 
+This project is to implement the Adafruit ADXL345 accelerometer into a development platform. The ADXL345 is soldered on to a custom-designed PCB to allow for plug-and-play functionality with our Raspberry Pi 3 development platform. Firmware was written to interface with the connected sensor, and an enclosure was designed to hold the Pi and sensor assembly. 
 
 The accelerometer (the Adafruit ADXL345) is a  low-power, 3-axis MEMS accelerometer with both I2C and SPI interfaces. It was chosen due to its low-cost, very small power budget, and advanced functionality including freefall and tap detection. The Raspberry Pi 3 is an ARM-based 64-bit single board computer with a large developer community and support - a perfect development platform for integrating multiple sensors into a final working product.
 
@@ -32,7 +32,7 @@ Placeholder
 ## Mechanical Assembly
 Placeholder
 
-## PCB/Soldering
+## PCB Design and Soldering
 Placeholder
 
 ## Power-up
