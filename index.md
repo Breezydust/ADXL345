@@ -1,6 +1,10 @@
 <html>
  <head></head>
  <body>
+  <h3 id="november-26-2019-week-12">Week 12 - November 26, 2019</h3>
+  <p>Final presentation will take place this week. I am the first to present (alphabetically) - presentiation slides can be found <a href="https://github.com/Breezydust/SmartWatch/blob/master/Documentation/ADXL345_Final_Presentation.pptx">here.</a></p>
+  <hr>
+  
   <h3 id="november-19-2019-week-11">Week 11 - November 19, 2019</h3>
   <p>Enclosure has been designed, built and assembled. I opted to go with an acrylic enclosure, as 3D printing proved to be too costly and time-consuming. CorelDraw 2019 was used to create the design files, and the enclosure was laser-cut in the Humber Prototype Lab. The design files can be found under the <a href="https://github.com/Breezydust/SmartWatch/blob/master/Mechanical">Mechanical</a> folder of the project repo.</p>
   
