@@ -1,5 +1,5 @@
-# SmartWatch 
-Implementing the accelerometer portion of a SmartWatch IOT project using the Adafruit ADXL345 and a Raspberry Pi 3
+# ADXL345
+Designing and implementing a plug-and-play accelerometer board using an AdaFruit ADXL345 for use with a Raspberry Pi 3 developement platform.
 
 ## Table of Contents
 1. [Introduction](#Introduction)
