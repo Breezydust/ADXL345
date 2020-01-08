@@ -1,16 +1,15 @@
 # ADXL345
-Designing and implementing a plug-and-play accelerometer board using an AdaFruit ADXL345 for use with a Raspberry Pi 3 developement platform.
+Designing and implementing a plug-and-play accelerometer board using an AdaFruit ADXL345 for use with a Raspberry Pi 3 development platform.
 
 ## Table of Contents
 1. [Introduction](#Introduction)
-2. [System Diagram](#System-Diagram)
-3. [BOM/Budget](#Bill-of-Materials-and-Budget)
-4. [Time Commitment](#Time-Commitment)
-5. [Mechanical Assembly](#Mechanical-Assembly)
-6. [PCB Design and Soldering](#PCB-Design-and-Soldering)
-7. [Power Up](#Power-Up)
-8. [Unit Testing](#Unit-Testing)
-9. [Production](#Production-Testing)
+2. [BOM/Budget](#Bill-of-Materials-and-Budget)
+3. [Time Commitment](#Time-Commitment)
+4. [Mechanical Assembly](#Mechanical-Assembly)
+5. [PCB Design and Soldering](#PCB-Design-and-Soldering)
+6. [Power Up](#Power-Up)
+7. [Unit Testing](#Unit-Testing)
+8. [Production](#Production-Testing)
 
 ## Introduction
 This project is to implement the Adafruit ADXL345 accelerometer into a development platform. The ADXL345 is soldered on to a custom-designed PCB to allow for plug-and-play functionality with our Raspberry Pi 3 development platform. Firmware was written to interface with the connected sensor, and an enclosure was designed to hold the Pi and sensor assembly. 
@@ -18,10 +17,6 @@ This project is to implement the Adafruit ADXL345 accelerometer into a developme
 The accelerometer (the Adafruit ADXL345) is a  low-power, 3-axis MEMS accelerometer with both I2C and SPI interfaces. It was chosen due to its low-cost, very small power budget, and advanced functionality including freefall and tap detection. The Raspberry Pi 3 is an ARM-based 64-bit single board computer with a large developer community and support - a perfect development platform for integrating multiple sensors into a final working product.
 
 Once complete, this project can be integrated alongside other sensors to provide more complex functionality and handle more applications. This project in particular is part of a multi-semester group project to integrate an accelerometer, pulse sensor and a temperature sensor alongside an appropriate enclosure and development platform in order to create a smartwatch device.
-
-
-## System Diagram
-Placeholder
 
 ## Bill of Materials and Budget
 The total price of the project - assuming nothing is owned before hand - is around 320CAD. A spreadsheet with up-to-date pricing (at the time of project completion) and links can be found [here](https://github.com/Breezydust/SmartWatch/blob/master/Documentation/ADXL345Budget_No_Preowned.xlsx).
@@ -93,7 +88,7 @@ Regardless, it is heavily advised to ensure that your design is correct prior to
 **Step 1: Fritzing**
 [Fritzing](https://fritzing.org/home/) is an open-source application that allows users to create PCB schematics for a variety of development platforms. It's highly customizable, extensible and is generally very user-friendly.
 
-  1. [Download](https://fritzing.org/download/) and extract Friztzing. Installation notes for a variety of operating systems are listed on the download site.
+  1. [Download](https://fritzing.org/download/) and extract Fritzing. Installation notes for a variety of operating systems are listed on the download site.
   
   2. [Download](https://github.com/adafruit/Fritzing-Library) and install the AdaFruit Fritzing Library. This will allow you to import a digital ADXL345 sensor for easier design.
   
