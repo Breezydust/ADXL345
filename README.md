@@ -19,16 +19,16 @@ The accelerometer (the Adafruit ADXL345) is a  low-power, 3-axis MEMS accelerome
 Once complete, this project can be integrated alongside other sensors to provide more complex functionality and handle more applications. This project in particular is part of a multi-semester group project to integrate an accelerometer, pulse sensor and a temperature sensor alongside an appropriate enclosure and development platform in order to create a smartwatch device.
 
 ## Bill of Materials and Budget
-The total price of the project - assuming nothing is owned before hand - is around 320CAD. A spreadsheet with up-to-date pricing (at the time of project completion) and links can be found [here](https://github.com/Breezydust/SmartWatch/blob/master/Documentation/ADXL345Budget_No_Preowned.xlsx).
+The total price of the project - assuming nothing is owned before hand - is around 320CAD. A spreadsheet with up-to-date pricing (at the time of project completion) and links can be found [here](https://github.com/Breezydust/ADXL345/blob/master/Documentation/ADXL345Budget_No_Preowned.xlsx).
 
-![](https://github.com/Breezydust/SmartWatch/blob/master/Images/ADXL345Budget_No_Preowned_Image.png)
+![](https://github.com/Breezydust/ADXL345/blob/master/Images/ADXL345Budget_No_Preowned_Image.png)
 
 ## Time Commitment
 The project was completed from scratch over a 15-week semester, with an average weekly time commitment of 160 minutes. Certain parts of the project (PCB design and soldering) took longer.
 
 Assuming that all parts of the project have been acquired and the person building the project is familiar with the concepts covered in the guide (setting up a development platform, hardware soldering, etc.) the entire project can be completed within a weekend.
 
-![](https://github.com/Breezydust/SmartWatch/blob/master/Images/ProjectTimelineImage_readme.png)
+![](https://github.com/Breezydust/ADXL345/blob/master/Images/ProjectTimelineImage_readme.png)
 
 ## Mechanical Assembly
 **Step 1: Preparing your development platform**
@@ -60,7 +60,7 @@ This step will outline basic sensor connectivity using jumper wires and a breadb
   
   2. Identify the correct pins on the sensor. For basic I2C functionality, the following four pin should be used: 3V3, GND, SDA and SCL.
   
-  ![](https://github.com/Breezydust/SmartWatch/blob/master/Images/ADXL345_Physical_Board.jpg)
+  ![](https://github.com/Breezydust/ADXL345/blob/master/Images/ADXL345_Physical_Board.jpg)
   
   3. Identify the corresponding pins on your development platforms GPIO header. On the Raspberry Pi 3, the correct pins are 1, 3, 5 and 6. [This website](https://pinout.xyz/#) can be used for pin references.
   
@@ -70,7 +70,7 @@ This step will outline basic sensor connectivity using jumper wires and a breadb
   
   The connection should look similar to this:
   
-  ![](https://github.com/Breezydust/SmartWatch/blob/master/Images/Breadboard_setup_picture.png)
+  ![](https://github.com/Breezydust/ADXL345/blob/master/Images/Breadboard_setup_picture.png)
   
   5. When your physical connections are secured, plug in your peripherals into the Raspberry Pi and power it on.
   
@@ -92,7 +92,7 @@ Regardless, it is heavily advised to ensure that your design is correct prior to
   
   2. [Download](https://github.com/adafruit/Fritzing-Library) and install the AdaFruit Fritzing Library. This will allow you to import a digital ADXL345 sensor for easier design.
   
-  3. Fritz! Create the appropriate connections, ensuring that any traces do not cross. Try to get your board to be as compact as possible. Alternatively, you can use my fritzing file found [here](https://github.com/Breezydust/SmartWatch/blob/master/Electronics/ADXL345Breadboard.fzz).
+  3. Fritz! Create the appropriate connections, ensuring that any traces do not cross. Try to get your board to be as compact as possible. Alternatively, you can use my fritzing file found [here](https://github.com/Breezydust/ADXL345/blob/master/Electronics/ADXL345Breadboard.fzz).
   
   4. Export as a Gerber file. `File > Export for Production > Extended Gerber` and select an easily-accessible folder. These files are the standard filetype used to etch and cut physical PCBs.
   
@@ -111,7 +111,7 @@ Once the PCB has been etched, it's time to solder. Ensure that you work in a wel
   
   5. Solder the stackable header on to the PCB. Although only 5 pins all used, all 6 should be soldered to ensure stability when attached to the Pi.
   
-  ![](https://github.com/Breezydust/SmartWatch/blob/master/Images/ADXL345_PCB_Top.jpeg)
+  ![](https://github.com/Breezydust/ADXL345/blob/master/Images/ADXL345_PCB_Top.jpeg)
   
   At this point, soldering is complete. Attach your soldered board to the appropriate GPIO pins on the Pi, and get ready for further testing.
 
@@ -120,12 +120,12 @@ With all peripherals plugged into your Pi, power it on. As above, establish a re
 
 If everything is in working order, you will be greeted with a terminal output similar to this:
 
-  ![](https://github.com/Breezydust/SmartWatch/blob/master/Images/ADXL345_i2cDetect.png)
+  ![](https://github.com/Breezydust/ADXL345/blob/master/Images/ADXL345_i2cDetect.png)
 
 ## Unit Testing
 All testing thus far has been to verify that the sensor is in working condition, and that there is a valid connection to the Pi. Further testing needs to be done - particularly in verifying that acceleration values can be read off the sensor and displayed in real-time.
 
-  1. Download the python file found [here](https://github.com/Breezydust/SmartWatch/blob/master/Firmware/ADXL345.py) and save it to your home directory.
+  1. Download the python file found [here](https://github.com/Breezydust/ADXL345/blob/master/Firmware/ADXL345.py) and save it to your home directory.
   
   2. Open a terminal, and navigate to your home directory using `cd ~`. 
   
@@ -133,7 +133,7 @@ All testing thus far has been to verify that the sensor is in working condition,
   
   You should get readings similar to this: 
   
-  ![](https://github.com/Breezydust/SmartWatch/blob/master/Images/ADXL345_scriptTest.png)
+  ![](https://github.com/Breezydust/ADXL345/blob/master/Images/ADXL345_scriptTest.png)
   
   Try moving the sensor around - readings are polled every .5s, and updated immediately.
   
@@ -142,7 +142,7 @@ At this point, the project is more or less complete. You have a functioning sens
 ## Production Testing
 Schematics for an acrylic case can be found [here](https://github.com/Breezydust/SmartWatch/blob/master/Mechanical/ADXL345_Enclosure_CorelDraw.cdr). The case encloses the Pi and the board, has a cutout for tapping the sensor, and is sturdy enough to withstand reasonable freefall detection testing.
 
-![](https://github.com/Breezydust/SmartWatch/blob/master/Mechanical/ADXL345_Enclosure_CorelDraw.pdf)
+![](https://github.com/Breezydust/ADXL345/blob/master/Mechanical/ADXL345_Enclosure_CorelDraw.pdf)
 
 With the case cut and assembled, you now have a functioning, portable accelerometer. Portability may be an issue depending on further integration you may have planned. The case dimensions are very tightly-fitting with the Raspberry Pi Model B board, and the provided PCB is about as small as it can get without using highly-specialized etching machines for thinner traces.
 
