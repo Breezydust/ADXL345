@@ -142,8 +142,4 @@ At this point, the project is more or less complete. You have a functioning sens
 ## Production Testing
 Schematics for an acrylic case can be found [here](https://github.com/Breezydust/SmartWatch/blob/master/Mechanical/ADXL345_Enclosure_CorelDraw.cdr). The case encloses the Pi and the board, has a cutout for tapping the sensor, and is sturdy enough to withstand reasonable freefall detection testing.
 
-![](https://github.com/Breezydust/ADXL345/blob/master/Mechanical/ADXL345_Enclosure_CorelDraw.pdf)
-
-With the case cut and assembled, you now have a functioning, portable accelerometer. Portability may be an issue depending on further integration you may have planned. The case dimensions are very tightly-fitting with the Raspberry Pi Model B board, and the provided PCB is about as small as it can get without using highly-specialized etching machines for thinner traces.
-
-This concludes the build instructions for the AdaFruit ADXL345 triple-axis accelerometer. 
+This concludes the build instructions for this project.
